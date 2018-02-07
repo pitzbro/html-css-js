@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color: pink;
+    background-image: url('../images/html.png');
+}
+
+div {
+    background: red;
+    margin-bottom: 20px;
+}
+
+.icon::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/html.png');
+}
+
+a:hover {
+    color: purple;
+}
+
+p::first-letter::before {
+    content: '[';
+}
+p::first-letter::after {
+    content: ']';
+}
+p::first-letter {
+    color: red;
+}
+
+
+.video-container {
+    background: #000;
+    color: #fff;
+}
+
+.video-container .video-description {
+    color: green;
+}
+
+.video-container {
+    width: rem(32px)
+}

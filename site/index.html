@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Layout</title>
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        
+        <nav>
+            
+            <ul class="menu">
+                <li>
+                    <a href="http://google.com">Link 1</a>
+                </li>
+                <li>
+                    <a href="http://google.com">Link 2</a>
+                </li>
+                <li>
+                    <a href="http://google.com">Link 3</a>
+                </li>
+                <li>
+                    <a href="http://google.com">Link 4</a>
+                </li>
+                <li>
+                    <a href="http://google.com">Link 5</a>
+                </li>
+            </ul>
+            
+        </nav>
+
+        <header>
+            <h1>WELCOME - Header</h1>
+        </header>
+
+        <div class="modal-wrapper" id="modal-wrapper" onclick="openModal()">
+            <div class="modal">
+                <h3>Check out this film!</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Zhv5s96i1vo" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <aside>hello sidebar</aside>
+        <main>
+            Main Content
+            <button onclick="openModal()">Open Modal</button>
+        </main>
+
+        <footer>Hello Footer</footer>
+
+        
+    </div>
+    
+    <script src="js/modal.js"></script>
+    <script src="js/exercise.js"></script>
+
+    
+    <script>
+        var puki = 18;
+    </script>
+</body>
+
+</html>
